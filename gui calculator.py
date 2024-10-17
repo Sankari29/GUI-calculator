@@ -61,7 +61,7 @@ two=Button(btns_frame,text="2",fg="black",width=10,height=3,bd=0,bg="#fff",curso
 three=Button(btns_frame,text="3",fg="black",width=10,height=3,bd=0,bg="#fff",cursor="hand2",command=lambda:btn_click(3)).grid(row=3,column=2,padx=1,pady=1) 
 plus=Button(btns_frame,text="+",fg="black",width=10,height=3,bd=0,bg="#eee",cursor="hand2",command=lambda:btn_click("+")).grid(row=3,column=3,padx=1,pady=1)
  
-# fourth row
+# fifth row
  
 zero=Button(btns_frame,text="0",fg="black",width=21,height=3,bd=0,bg="#fff",cursor="hand2",command=lambda: btn_click(0)).grid(row=4,column=0,columnspan=2,padx=1,pady=1)
 point=Button(btns_frame,text = ".",fg="black",width=10,height=3,bd =0,bg = "#eee",cursor ="hand2",command=lambda: btn_click(".")).grid(row=4,column=2,padx=1,pady=1) 
